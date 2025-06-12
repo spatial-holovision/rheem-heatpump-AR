@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sample1",
+    "name": "Sample Cube",
+    "description": "A simple 3D cube for testing AR functionality",
+    "glbFile": "models/sample1.glb",
+    "usdzFile": "models/sample1.usdz",
+    "thumbnail": "assets/thumbnails/sample1.jpg",
+    "createdAt": "2025-06-06T21:00:00Z"
+  },
+  {
+    "id": "sample2",
+    "name": "Sample Sphere",
+    "description": "A simple 3D sphere for testing AR functionality",
+    "glbFile": "models/sample2.glb",
+    "usdzFile": "models/sample2.usdz",
+    "thumbnail": "assets/thumbnails/sample2.jpg",
+    "createdAt": "2025-06-06T21:01:00Z"
+  }
+]

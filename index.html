@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Web App - GitHub Pages Version</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/additional.css">
+    <!-- Import model-viewer via CDN -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">AR Web App</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="library.html">Library</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="upload-card">
+                <h2>AR Model Viewer</h2>
+                
+                <div class="info-section">
+                    <div class="info-box">
+                        <h3>How to Use This App</h3>
+                        <p>This AR web application allows you to view 3D models in augmented reality on your mobile device.</p>
+                        <p>Visit the <a href="library.html">Library</a> to browse all available AR models.</p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Adding Your Own Models</h3>
+                        <p>To add your own models to this application:</p>
+                        <ol>
+                            <li>Fork the GitHub repository</li>
+                            <li>Add your .glb and .usdz files to the models directory</li>
+                            <li>Update the models.json file with your model information</li>
+                            <li>Create a pull request or commit directly to your repository</li>
+                        </ol>
+                        <p>For detailed instructions, see the README.md file in the repository.</p>
+                    </div>
+                </div>
+                
+                <div class="library-link">
+                    <a href="library.html" class="button primary-button">Browse AR Library</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Hosted on GitHub Pages. <a href="https://github.com/yourusername/ar-web-app-github" target="_blank">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

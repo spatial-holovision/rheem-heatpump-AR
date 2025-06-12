@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Viewer - AR Web App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/additional.css">
+    <!-- Import model-viewer via CDN -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">AR Web App</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="library.html">Library</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="loading" class="loading-container">
+                <div class="loading-spinner"></div>
+                <p>Loading AR model...</p>
+            </div>
+            
+            <div id="error-container" class="error-container hidden">
+                <div class="error-message">
+                    <p id="error-text">Model not found or could not be loaded.</p>
+                </div>
+                <div class="action-buttons">
+                    <a href="index.html" class="button primary-button">Home</a>
+                    <a href="library.html" class="button secondary-button">View Library</a>
+                </div>
+            </div>
+            
+            <div id="ar-viewer" class="ar-viewer-container hidden">
+                <h1 id="model-title" class="model-title">AR Model</h1>
+                
+                <div class="model-viewer-container">
+                    <model-viewer id="model-viewer"
+                        camera-controls
+                        auto-rotate
+                        ar
+                        ar-modes="scene-viewer quick-look webxr"
+                        shadow-intensity="1"
+                        environment-image="neutral"
+                        exposure="0.5">
+                    </model-viewer>
+                </div>
+                
+                <div id="model-description" class="model-description"></div>
+                
+                <div class="share-section">
+                    <p class="share-text">Share this link to view this AR experience on any device</p>
+                    
+                    <div class="share-link">
+                        <input type="text" id="shareable-link" readonly>
+                        <button id="copy-link" class="button secondary-button">Copy</button>
+                    </div>
+                </div>
+                
+                <div class="back-to-library">
+                    <a href="library.html" class="button secondary-button">Back to Library</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Hosted on GitHub Pages. <a href="https://github.com/yourusername/ar-web-app-github" target="_blank">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/viewer.js"></script>
+</body>
+</html>

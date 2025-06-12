@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Library - AR Web App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/additional.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">AR Web App</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="library.html" class="active">Library</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="upload-card" style="max-width: 900px;">
+                <div class="header-with-button">
+                    <h2>AR Model Library</h2>
+                    <a href="https://github.com/yourusername/ar-web-app-github" target="_blank" class="button primary-button" style="width: auto;">Add New Model</a>
+                </div>
+                
+                <div id="loading" class="loading-container">
+                    <div class="loading-spinner"></div>
+                    <p>Loading AR models...</p>
+                </div>
+                
+                <div id="error-container" class="error-container hidden">
+                    <div class="error-message">
+                        <p id="error-text">Failed to load AR models.</p>
+                    </div>
+                </div>
+                
+                <div id="empty-library" class="empty-library hidden">
+                    <p>No AR models have been uploaded yet.</p>
+                    <a href="https://github.com/yourusername/ar-web-app-github" target="_blank" class="button primary-button">Add Your First Model</a>
+                </div>
+                
+                <div id="models-container" class="models-container hidden">
+                    <!-- Models will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Hosted on GitHub Pages. <a href="https://github.com/yourusername/ar-web-app-github" target="_blank">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/library.js"></script>
+</body>
+</html>
