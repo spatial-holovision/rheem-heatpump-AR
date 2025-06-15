@@ -19,10 +19,10 @@
   },
   {
     "id": "sample3",
-    "name": "Sample orchide",
-    "description": "A simple 3D sphere for testing AR functionality",
+    "name": "Sample Orchide",
+    "description": "A simple 3D orchide for testing AR functionality",
     "glbFile": "models/sample3.glb",
-    "usdzFile": "models/sample2.usdz",
+    "usdzFile": "models/sample3.usdz",  // Changed to a unique file
     "thumbnail": "assets/thumbnails/sample3.jpg",
     "createdAt": "2025-06-06T21:01:00Z"
   }
