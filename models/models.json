@@ -17,7 +17,7 @@
     "thumbnail": "assets/thumbnails/sample2.jpg",
     "createdAt": "2025-06-06T21:01:00Z"
   },
-   {
+  {
     "id": "sample3",
     "name": "Sample orchide",
     "description": "A simple 3D sphere for testing AR functionality",
