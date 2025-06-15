@@ -22,7 +22,7 @@
     "name": "Sample orchide",
     "description": "A simple 3D sphere for testing AR functionality",
     "glbFile": "models/sample3.glb",
-    "usdzFile": "models/sample3.usdz",
+    "usdzFile": "models/sample2.usdz",
     "thumbnail": "assets/thumbnails/sample3.jpg",
     "createdAt": "2025-06-06T21:01:00Z"
   }
