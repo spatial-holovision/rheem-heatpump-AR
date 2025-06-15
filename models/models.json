@@ -19,8 +19,8 @@
   },
    {
     "id": "sample3",
-    "name": "Sample Sphere",
-    "description": "A simple 3D sphere for testing AR functionality",
+    "name": "new3",
+    "description": "عنصر جديد",
     "glbFile": "models/sample3.glb",
     "usdzFile": "models/sample3.usdz",
     "thumbnail": "assets/thumbnails/sample2.jpg",
