@@ -25,5 +25,13 @@
     "usdzFile": "models/sample3.usdz",
     "thumbnail": "assets/thumbnails/sample2.jpg",
     "createdAt": "2025-06-06T21:01:00Z"
+  }, 
+   {
+    "id": "cone",
+    "name": "Cone Test",
+    "description": "A cone, how crazy",
+    "glbFile": "test model glitch.glb",
+    "usdzFile": "ConeGlitchTest2.usdz",
+    "createdAt": "2025-06-06T21:01:00Z"
   }
 ]
